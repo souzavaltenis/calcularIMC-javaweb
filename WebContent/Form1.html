@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IMC1 (HTML e servlet)</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		<h1>Calculo de IMC (HTML e servlet)</h1>
+		<form action="IMC1">
+			<p>
+				<label>Peso: </label> <input type="text" name="peso" onchange="this.value = this.value.replace(',', '.')">
+			</p>
+			<p>
+				<label>Altura: </label> <input type="text" name="altura" onchange="this.value = this.value.replace(',', '.')">
+			<p>
+				<input type="submit" value="Calcular">
+		</form>
+	</body>
+</html>
